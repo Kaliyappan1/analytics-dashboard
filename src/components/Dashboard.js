@@ -1,7 +1,7 @@
-import React from "react";
 import Sidebar from "./Sidebar";
 import Header from "./Header";
-import "../assets/styles/Dashboard.css"; // Ensure this file exists
+import "../assets/styles/Dashboard.css";
+import DashboardCard from "./DashboardCard";
 
 const Dashboard = () => {
   return (
@@ -10,7 +10,7 @@ const Dashboard = () => {
       <div className="main-content">
         <Header />
         <div className="dashboard-body">
-          {/* Main dashboard content goes here */}
+          <DashboardCard/>
         </div>
       </div>
     </div>

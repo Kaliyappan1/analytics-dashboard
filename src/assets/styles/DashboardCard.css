@@ -1,0 +1,16 @@
+.dashboard-charts {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.request-type,
+.browser-usage {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.request-type:last-child,
+.browser-usage:last-child {
+  margin-right: 0;
+}

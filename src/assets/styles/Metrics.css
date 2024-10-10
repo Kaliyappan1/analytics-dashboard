@@ -1,0 +1,70 @@
+.metrics {
+  display: flex;
+  justify-content: space-around;
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;
+}
+
+.metric {
+  display: flex;
+  align-items: center;
+}
+
+.metric div {
+  margin-left: 10px;
+}
+
+.metric h4 {
+  font-size: 0.8rem;
+  margin: 0;
+  color: #777;
+}
+
+.metric p {
+  font-size: 1.5rem;
+  margin: 0;
+  font-weight: bold;
+  color: #333;
+}
+
+.metric-break-line {
+  display: flex;
+  border: 1px solid #ddd;
+}
+
+/* Tablet View (768px - 1024px) */
+@media (max-width: 1024px) {
+  .metric {
+    margin-bottom: 10px;
+  }
+
+  .metric h4 {
+    font-size: 1rem;
+  }
+
+  .metric p {
+    font-size: 1.2rem;
+  }
+}
+
+/* Mobile View (480px - 767px) */
+@media (max-width: 767px) {
+  .metrics {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .metric {
+    margin-bottom: 15px;
+  }
+
+  .metric h4 {
+    font-size: 1.1rem;
+  }
+
+  .metric p {
+    font-size: 1.3rem;
+  }
+}

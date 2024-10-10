@@ -121,19 +121,19 @@
 /* Tablet View (768px - 1024px) */
 @media (max-width: 1024px) {
   .sidebar {
-    width: 12%; /* Shrink the width */
+    width: 12%; 
   }
 
   .nav-item span {
-    display: none; /* Hide text */
+    display: none; 
   }
 
   .profile div {
-    display: none; /* Hide profile text */
+    display: none; 
   }
 
   .pro-box {
-    display: none; /* Hide Pro box */
+    display: none;  
   }
 }
 
@@ -144,7 +144,7 @@
   }
 
   .logo h2 {
-    display: none; /* Hide logo text */
+    display: none; 
   }
 
   .nav-item span {
