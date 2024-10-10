@@ -19,44 +19,44 @@ const Sidebar = () => {
         <h2>API Dashboard</h2>
       </div>
       <ul className="nav-links">
-        <li className="nav-item">
+        <li className="nav-item active">
           <div>
-            <BiSolidDashboard color="#8C9AC0" className="icon" />
+            <BiSolidDashboard className="icon" />
             <span>Dashboard</span>
           </div>
           <IoIosArrowForward />
         </li>
         <li className="nav-item">
           <div>
-            <FaProductHunt color="#8C9AC0" className="icon" />
+            <FaProductHunt className="icon" />
             <span>Product</span>
           </div>
           <IoIosArrowForward />
         </li>
         <li className="nav-item">
           <div>
-            <FaUsers color="#8C9AC0" className="icon" />
+            <FaUsers className="icon" />
             <span>Customers</span>
           </div>
           <IoIosArrowForward />
         </li>
         <li className="nav-item">
           <div>
-            <FaDollarSign color="#8C9AC0" className="icon" />
+            <FaDollarSign className="icon" />
             <span>Income</span>
           </div>
           <IoIosArrowForward />
         </li>
         <li className="nav-item">
           <div>
-            <FaBullhorn className="icon" color="#8C9AC0" />
+            <FaBullhorn className="icon" />
             <span>Promote</span>
           </div>
           <IoIosArrowForward />
         </li>
         <li className="nav-item">
           <div>
-            <FaQuestionCircle className="icon" color="#8C9AC0" />
+            <FaQuestionCircle className="icon" />
             <span>Help</span>
           </div>
           <IoIosArrowForward />
