@@ -1,12 +1,25 @@
-import "../assets/styles/Requests.css"
+import { CgSearch } from "react-icons/cg";
+import "../assets/styles/Requests.css";
 
 const Requests = () => {
   return (
     <div className="requests">
-      <h4>Requests</h4>
+      <div className="requests-header">
+        <div>
+          <h4>Requests</h4>
+        </div>
+        <div className="search-bar">
+          <CgSearch size={22} className="search-icon" />
+          <input type="text" placeholder="Search" style={{ margin:"0 5px"}}/>  
+          <input type="date" placeholder="Last 30 days" />  
+
+
+        </div>
+
+      </div>
       <table>
         <thead>
-          <tr>
+          <tr >
             <th>ID</th>
             <th>Req. ID</th>
             <th>Req. Status</th>
@@ -18,6 +31,7 @@ const Requests = () => {
             <th>User agent</th>
           </tr>
         </thead>
+        <span className="requests-cross-bar"></span>
         <tbody>
           <tr>
             <td>1</td>
@@ -41,7 +55,6 @@ const Requests = () => {
             <td>Windows</td>
             <td>Chrome</td>
           </tr>
-          
         </tbody>
       </table>
     </div>

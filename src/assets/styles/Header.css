@@ -18,6 +18,7 @@
 
 .search-bar {
   position: relative;
+  margin: 0 5px;
 }
 
 .search-bar input {
@@ -50,6 +51,7 @@
 
   .search-bar {
     position: relative;
+  
   }
 
   .search-bar input {
