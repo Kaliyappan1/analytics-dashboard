@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/Sidebar.css";
+import "../assets/styles/Sidebar.css";
 import {
   FaProductHunt,
   FaUsers,
@@ -15,7 +15,7 @@ const Sidebar = () => {
   return (
     <div className="sidebar">
       <div className="logo">
-        <IoSettingsOutline size={26} />
+        <IoSettingsOutline size={26} color="black" className="icon" />
         <h2>API Dashboard</h2>
       </div>
       <ul className="nav-links">
@@ -24,7 +24,7 @@ const Sidebar = () => {
             <BiSolidDashboard className="icon" />
             <span>Dashboard</span>
           </div>
-          <IoIosArrowForward />
+          <IoIosArrowForward className="icon"/>
         </li>
         <li className="nav-item">
           <div>
