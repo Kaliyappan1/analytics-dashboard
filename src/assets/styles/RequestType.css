@@ -18,7 +18,7 @@
 
 .bar {
   width: 7%;
-  background: linear-gradient(to top, #6038EA, #F43597);
+  background: linear-gradient(to bottom, #ea9efd, #5148ff);
   margin: 0 10px;
   transition: height 0.3s ease;
 }

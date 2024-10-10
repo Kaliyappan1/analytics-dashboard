@@ -29,6 +29,37 @@
   color: #333;
 }
 
+.icon-container-income {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: #EBFFF4;
+  margin-right: 15px;
+}
+.icon-container-clock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: #CDF4FF;
+  margin-right: 15px;
+}
+.icon-container-time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: #FFC7E9;
+  margin-right: 15px;
+}
+
 .metric-break-line {
   display: flex;
   border: 1px solid #ddd;
